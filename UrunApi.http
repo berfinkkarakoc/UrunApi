@@ -1,0 +1,11 @@
+@UrunApi_HostAddress = http://localhost:5177
+
+GET {{UrunApi_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{UrunApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
